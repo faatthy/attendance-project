@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8" />
+<link rel="canonical" href="https://gitfront.io/" />
+<meta name="viewport" content="width=device-width" />
+<meta name="description"
+      content="Some of the most interesting software is hidden away in private repositories.
+GitFront empowers developers to share code with the world.">
+<title>Share git repositories · GitFront</title>
+<style>
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    color: #333;
+    margin: 0;
+}
+a {
+    color: #0080a0;
+}
+img:-moz-loading {
+    visibility: hidden;
+}
+.logo {
+    display: flex;
+
+    padding: 1rem;
+    align-items: center;
+    position: absolute;
+    font-family: arial;
+    font-size: 32px;
+    font-weight: bold;
+}
+.logo img {
+    width: 64px;
+    height: 64px;
+    margin-right: 1rem;
+    padding: 3px;
+}
+.content {
+    display: grid;
+    grid-template-areas: "title title" "left right";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content 1fr;
+
+    grid-gap: 4rem;
+    min-height: 35rem;
+    max-width: 60rem;
+    margin: auto;
+}
+section {
+    font-size: 18px;
+    margin: 10rem 0;
+    padding: 0 1rem;
+}
+section:nth-of-type(1) {
+    padding: 8rem 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 90% 0 0 0;
+}
+
+.traits {
+    max-width: 60rem;
+    margin: auto;
+    box-sizing: border-box;
+    margin-bottom: 10rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-gap: 1rem;
+}
+.traits div {
+    text-align: center;
+    color: #555;
+    transition: 1s ease-out color;
+}
+.traits div:hover {
+    color: #146;
+    transition: .2s linear color;
+}
+.traits div img {
+    width: 128px;
+    height: 128px;
+    transition: 1s ease-out filter;
+    filter: saturate(50%);
+}
+.traits div:hover img {
+    filter: saturate(200%);
+    transition: .2s linear filter;
+}
+
+.demo {
+    display: grid;
+    grid-template-columns: max-content auto;
+    grid-gap: 3rem;
+    max-width: 60rem;
+    margin: auto;
+    align-items: center;
+}
+.demo video {
+    box-shadow: -4px 0 32px rgba(0,0,0,.3);
+    border-radius: 8px;
+    margin: auto;
+}
+@media (max-width: 900px) {
+    .demo video {
+        width: 450px;
+        box-shadow: 0 0 32px rgba(0,0,0,.3);
+    }
+}
+@media (max-height: 750px) {
+    .demo video { width: 450px; }
+}
+
+@media (max-width: 500px) {
+    .demo video { width: 300px; }
+}
+@media (max-height: 560px) {
+    .demo video { width: 300px; }
+}
+
+.content h1 {
+    text-align: center;
+    grid-area: title;
+    font-size: 3rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 0;
+    padding: 2rem;
+    padding-top: 0;
+    font-weight: 500;
+}
+
+@media (max-width: 440px) {
+section {
+    font-size: 15px;
+}
+.content h1 {
+    font-size: 2.6rem;
+}
+.traits td img {
+    width: 64px;
+    height: 64px;
+}
+}
+
+.try {
+    display: flex;
+    flex-direction: column;
+    grid-area: right;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 8px 16px 32px rgba(0,0,0,.3);
+    font-size: 1.2rem;
+}
+.try h2 {
+    margin-top: 6rem;
+}
+.try .console-link {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: small;
+    text-align: center;
+}
+.try .btn {
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.description {
+    margin: auto;
+    max-width: 30rem;
+}
+
+.description-standalone {
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+.content {
+    grid-template-areas: "title" "left" "right";
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 2rem;
+    max-width: 30rem;
+}
+.content h1 {
+    border: none;
+    padding: .5rem;
+    margin: auto;
+}
+.demo {
+    grid-template-columns: auto;
+    grid-gap: 1.5rem;
+}
+.demo .description {
+    margin: auto;
+    max-width: 30rem;
+}
+.try {
+    margin-top: 4rem;
+    box-shadow: 0 16px 32px rgba(0,0,0,.3);
+}
+.description-standalone {
+    text-align: inherit;
+}
+}
+
+.btn {
+    display: inline-block;
+    padding: .5em 2em;
+    min-width: 4em;
+    text-align: center;
+    cursor: pointer;
+    background: white;
+    border-radius: .3em;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0ac;
+    transition: .1s filter linear;
+    border: 1px solid #adf;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.btn:focus {
+    border: 1px solid #8bd;
+}
+.btn:active {
+    border: 1px solid #0bd;
+}
+.btn:hover {
+    color: #00b2d0;
+    filter: saturate(130%);
+}
+.btn::-moz-focus-inner {
+    border: 0;
+}
+.btn-special {
+    color: white;
+    border: 1px solid rgba(0,0,0,0);
+    background: linear-gradient(160deg, #08e, #0ba);
+    transition: .1s filter linear;
+}
+.btn-special:hover {
+    color: white;
+}
+.btn-special:focus {
+    border: 1px solid #089;
+}
+.btn-special:active {
+    border: 1px solid #0bd;
+}
+
+.footer {
+    margin: 0;
+    font-size: small;
+    text-align: center;
+}
+.links {
+    display: flex;
+    margin: 1rem;
+    margin-top: 8rem;
+    justify-content: center;
+}
+.links > * {
+    margin: .5em;
+}
+.copyright {
+    font-size: x-small;
+    margin: 1rem;
+}
+</style>
+
+<body>
+    <div class="logo"><img alt="GitFront Logo" src="gitfront.svg">GitFront</div>
+    <section>
+        <div class="content">
+            <h1>Share git repositories</h1>
+            <div class="try">
+                <h2>Share code now!</h2>
+                <a href="https://console.gitfront.io"
+                   class="btn btn-special">GET STARTED</a>
+                <p>No need to sign up.</p>
+                <div class="console-link">
+                    Already signed up?
+                    Continue to <a href="https://console.gitfront.io">Console</a>.
+                </div>
+            </div>
+
+            <div class="description">
+                <p>Sometimes you want to show your personal git projects to friends, associates or potential employers.</p>
+                <p>With GitFront you can share private git repositories without making them public.</p>
+                <p>Even if you want to share public repositories,
+                you can take advantage of GitFront's fast repository browser and clean user interface.</p>
+            </div>
+        </div>
+    </section>
+    <section class="traits">
+        <div>
+            <img src="fast.svg" alt="fast">
+            <h3 id="fast">Fast</h3>
+            <p>Speed matters.
+            One of the fastest online repository browsers.</p>
+        </div><div>
+            <img src="compatible.svg" alt="compatible">
+            <h3 id="compatible">Compatible</h3>
+            <p>Works with all code hosting platforms.</p>
+        </div><div>
+            <img src="beautiful.svg" alt="beautiful">
+            <h3 id="beautiful">Beautiful</h3>
+            <p>Without messy code history.
+            No distractions, only presentation.</p>
+        </div><div>
+            <img src="simple.svg" alt="simple">
+            <h3 id="simple">Simple</h3>
+            <p>Easy to import, shareable as an ordinary link.</p>
+        </div><div>
+            <img src="secure.svg" alt="secure">
+            <h3 id="secure">Secure</h3>
+            <p>Only you have write access to your repository.</p>
+        </div><div>
+            <img src="private.svg" alt="private">
+            <h3 id="private">Private</h3>
+            <p>You choose what you share and who you share with.</p>
+        </div>
+    </section>
+    <section>
+        <div class="description description-standalone">
+            <h2>Remove obstacles for people you share code with</h2>
+            <p>
+            It may take a minute of your time to share a repository.
+            It shouldn't take more than a few seconds to view it.
+            Other platforms are for collaboration. GitFront is for presentation.
+            </p>
+        </div>
+    </section>
+    <section class="demo">
+            <video autoplay loop playsinline muted poster="console-demo.png">
+                <source src="https://gitfront-cdn.ams3.cdn.digitaloceanspaces.com/video/console-demo.webm" type="video/webm">
+                <source src="https://gitfront-cdn.ams3.cdn.digitaloceanspaces.com/video/console-demo.mp4" type="video/mp4">
+            </video>
+            <div class="description">
+                <h2>All you need is one minute</h2>
+                <p>
+                Import a git repository.
+                If it's private, copy and paste the deploy key.
+                Click build and take a deep breath.
+                </p>
+                <p>
+                Send a link.
+                </p>
+            </div>
+    </section>
+    <section class="footer">
+        <div class="links">
+            <a href="terms.html">Terms</a>
+            <a href="privacy.html">Privacy</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="https://console.gitfront.io">Console</a>
+        </div>
+        <div class="copyright">© 2023 GitFront</div>
+    </section>
+</body>

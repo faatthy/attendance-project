@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="robots" content="noindex" />
+        <link rel="stylesheet" href="../style.css">
+        <title>location.json · Att-web-app · GitFront</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="location">
+                <a href="..">Att-web-app</a> /
+                <span>location.json</span>
+            </div>
+
+            <div class="blob-view">
+                <div class="header">
+                    <div>location.json</div>
+                    <div class="last">
+                        <a class="btn" href="../raw/location.json">Raw</a>
+                    </div>
+                </div>
+                <div class="content ">
+                    <pre style="background-color:#fff"><span style="color:#888">{</span><span style="color:#2838b0">&#34;lat&#34;</span><span style="color:#888">:</span><span style="color:#444;font-style:italic">null</span><span style="color:#888">,</span><span style="color:#2838b0">&#34;lon&#34;</span><span style="color:#888">:</span><span style="color:#444;font-style:italic">null</span><span style="color:#888">,</span><span style="color:#2838b0">&#34;acc&#34;</span><span style="color:#888">:</span><span style="color:#444;font-style:italic">null</span><span style="color:#888">}</span></pre>
+                </div>
+            </div>
+
+            <div class="space"></div>
+            <div class="footer">
+                Powered by <a href="https://gitfront.io">GitFront</a>
+            </div>
+        </div>
+    </body>
+</html>

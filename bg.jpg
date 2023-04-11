@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="robots" content="noindex" />
+        <link rel="stylesheet" href="../style.css">
+        <title>bg.jpg · Att-web-app · GitFront</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="location">
+                <a href="..">Att-web-app</a> /
+                <span>bg.jpg</span>
+            </div>
+
+            <div class="blob-view">
+                <div class="header">
+                    <div>bg.jpg</div>
+                    <div class="last">
+                        <a class="btn" href="../raw/bg.jpg">Raw</a>
+                    </div>
+                </div>
+                <div class="content ">
+                    <div class="content-img">
+                        <img src="../raw/bg.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="space"></div>
+            <div class="footer">
+                Powered by <a href="https://gitfront.io">GitFront</a>
+            </div>
+        </div>
+    </body>
+</html>

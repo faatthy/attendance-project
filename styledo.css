@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="robots" content="noindex" />
+        <link rel="stylesheet" href="../style.css">
+        <title>styledo.css · Att-web-app · GitFront</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="location">
+                <a href="..">Att-web-app</a> /
+                <span>styledo.css</span>
+            </div>
+
+            <div class="blob-view">
+                <div class="header">
+                    <div>styledo.css</div>
+                    <div class="last">
+                        <a class="btn" href="../raw/styledo.css">Raw</a>
+                    </div>
+                </div>
+                <div class="content ">
+                    <pre style="background-color:#fff"><span style="color:#2838b0">body</span> <span style="color:#888">{</span>
+
+    <span style="color:#2838b0">background-image</span><span style="color:#888">:</span> <span style="color:#388038">url</span><span style="color:#888">(</span><span style="color:#b83838">&#39;bg.jpg&#39;</span><span style="color:#888">)</span><span style="color:#888">;</span>
+    <span style="color:#2838b0">background-repeat</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">no-repeat</span><span style="color:#888">;</span>
+    <span style="color:#2838b0">background-size</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">cover</span><span style="color:#888">;</span>
+  
+			<span style="color:#2838b0">display</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">flex</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">flex-direction</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">column</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">align-items</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">center</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">justify-content</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">center</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">height</span><span style="color:#888">:</span> <span style="color:#444">90</span><span style="color:#2838b0;font-style:italic">vh</span><span style="color:#888">;</span>
+		<span style="color:#888">}</span>	
+
+		<span style="color:#2838b0">header</span> <span style="color:#888">{</span>
+			<span style="color:#2838b0">display</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">flex</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">justify-content</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">space</span><span style="color:#666">-</span>between<span style="color:#888">;</span>
+			<span style="color:#2838b0">align-items</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">center</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">padding</span><span style="color:#888">:</span> <span style="color:#444">20</span><span style="color:#2838b0;font-style:italic">px</span><span style="color:#888">;</span>
+		  <span style="color:#888">}</span>
+		  
+		  <span style="color:#888">.</span><span style="color:#287088">logo-left</span> <span style="color:#2838b0">img</span><span style="color:#666">,</span>
+		  <span style="color:#888">.</span><span style="color:#287088">logo-right</span> <span style="color:#2838b0">img</span> <span style="color:#888">{</span>
+			<span style="color:#2838b0">height</span><span style="color:#888">:</span> <span style="color:#444">70</span><span style="color:#2838b0;font-style:italic">px</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">width</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">auto</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">position</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">absolute</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">top</span><span style="color:#888">:</span> <span style="color:#444">0</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">left</span><span style="color:#888">:</span> <span style="color:#444">0</span><span style="color:#888">;</span>
+		
+		  <span style="color:#888">}</span>
+
+		  <span style="color:#2838b0">h3</span> <span style="color:#888">{</span>
+			<span style="color:#2838b0">color</span><span style="color:#888">:</span><span style="color:#444">#ffffff</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">position</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">absolute</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">top</span><span style="color:#888">:</span> <span style="color:#444">0</span><span style="color:#888">;</span>
+			
+		  <span style="color:#888">}</span>
+		 
+		<span style="color:#2838b0">h1</span> <span style="color:#888">{</span>
+			<span style="color:#2838b0">font-size</span><span style="color:#888">:</span> <span style="color:#444">2</span><span style="color:#2838b0;font-style:italic">em</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">margin-bottom</span><span style="color:#888">:</span> <span style="color:#444">1</span><span style="color:#2838b0;font-style:italic">em</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">color</span><span style="color:#888">:</span><span style="color:#444">#ffffff</span><span style="color:#888">;</span>
+		<span style="color:#888">}</span>
+
+		<span style="color:#2838b0">form</span> <span style="color:#888">{</span>
+			<span style="color:#2838b0">display</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">flex</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">flex-direction</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">column</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">align-items</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">center</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">justify-content</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">center</span><span style="color:#888">;</span>
+			<span style="color:#888;font-style:italic">/* background-color: #ffffff; */</span>
+			<span style="color:#2838b0">padding</span><span style="color:#888">:</span> <span style="color:#444">2</span><span style="color:#2838b0;font-style:italic">em</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">border-radius</span><span style="color:#888">:</span> <span style="color:#444">1</span><span style="color:#2838b0;font-style:italic">em</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">box-shadow</span><span style="color:#888">:</span> <span style="color:#444">0</span> <span style="color:#444">0.5</span><span style="color:#2838b0;font-style:italic">em</span> <span style="color:#444">1</span><span style="color:#2838b0;font-style:italic">em</span> <span style="color:#388038">rgba</span><span style="color:#888">(</span><span style="color:#444">6</span><span style="color:#888">,</span> <span style="color:#444">195</span><span style="color:#888">,</span> <span style="color:#444">116</span><span style="color:#888">,</span> <span style="color:#444">0.808</span><span style="color:#888">)</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">color</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">black</span><span style="color:#888">;</span>
+		<span style="color:#888">}</span>
+
+		<span style="color:#2838b0">label</span> <span style="color:#888">{</span>
+			<span style="color:#2838b0">font-size</span><span style="color:#888">:</span> <span style="color:#444">1.2</span><span style="color:#2838b0;font-style:italic">em</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">margin-bottom</span><span style="color:#888">:</span> <span style="color:#444">0.5</span><span style="color:#2838b0;font-style:italic">em</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">color</span><span style="color:#888">:</span><span style="color:#444">#ffffff</span><span style="color:#888">;</span>
+		<span style="color:#888">}</span>
+
+		
+
+		<span style="color:#2838b0">input</span><span style="color:#666">[</span><span style="color:#2838b0">type</span><span style="color:#666">=</span><span style="color:#b83838">&#34;button&#34;</span><span style="color:#666">]</span> <span style="color:#888">{</span>
+			<span style="color:#2838b0">padding</span><span style="color:#888">:</span> <span style="color:#444">0.3</span><span style="color:#2838b0;font-style:italic">em</span> <span style="color:#444">0.6</span><span style="color:#2838b0;font-style:italic">em</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">margin-top</span><span style="color:#888">:</span> <span style="color:#444">1</span><span style="color:#2838b0;font-style:italic">em</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">font-size</span><span style="color:#888">:</span> <span style="color:#444">1.5</span><span style="color:#2838b0;font-style:italic">em</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">border-radius</span><span style="color:#888">:</span> <span style="color:#444">0.5</span><span style="color:#2838b0;font-style:italic">em</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">border</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">none</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">outline</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">none</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">box-shadow</span><span style="color:#888">:</span> <span style="color:#444">0</span> <span style="color:#444">0.2</span><span style="color:#2838b0;font-style:italic">em</span> <span style="color:#444">0.5</span><span style="color:#2838b0;font-style:italic">em</span> <span style="color:#388038">rgba</span><span style="color:#888">(</span><span style="color:#444">0</span><span style="color:#888">,</span> <span style="color:#444">0</span><span style="color:#888">,</span> <span style="color:#444">0</span><span style="color:#888">,</span> <span style="color:#444">0.3</span><span style="color:#888">)</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">background-color</span><span style="color:#888">:</span> <span style="color:#388038">rgba</span><span style="color:#888">(</span><span style="color:#444">6</span><span style="color:#888">,</span> <span style="color:#444">195</span><span style="color:#888">,</span> <span style="color:#444">116</span><span style="color:#888">,</span> <span style="color:#444">0.808</span><span style="color:#888">)</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">color</span><span style="color:#888">:</span> <span style="color:#444">#fff</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">cursor</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">pointer</span><span style="color:#888">;</span>
+		<span style="color:#888">}</span>
+		<span style="color:#2838b0">input</span><span style="color:#666">[</span><span style="color:#2838b0">type</span><span style="color:#666">=</span><span style="color:#b83838">&#34;submit&#34;</span><span style="color:#666">]</span> <span style="color:#888">{</span>
+			<span style="color:#2838b0">padding</span><span style="color:#888">:</span> <span style="color:#444">0.3</span><span style="color:#2838b0;font-style:italic">em</span> <span style="color:#444">0.6</span><span style="color:#2838b0;font-style:italic">em</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">margin-top</span><span style="color:#888">:</span> <span style="color:#444">1</span><span style="color:#2838b0;font-style:italic">em</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">font-size</span><span style="color:#888">:</span> <span style="color:#444">1.5</span><span style="color:#2838b0;font-style:italic">em</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">border-radius</span><span style="color:#888">:</span> <span style="color:#444">0.5</span><span style="color:#2838b0;font-style:italic">em</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">border</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">none</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">outline</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">none</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">box-shadow</span><span style="color:#888">:</span> <span style="color:#444">0</span> <span style="color:#444">0.2</span><span style="color:#2838b0;font-style:italic">em</span> <span style="color:#444">0.5</span><span style="color:#2838b0;font-style:italic">em</span> <span style="color:#388038">rgba</span><span style="color:#888">(</span><span style="color:#444">0</span><span style="color:#888">,</span> <span style="color:#444">0</span><span style="color:#888">,</span> <span style="color:#444">0</span><span style="color:#888">,</span> <span style="color:#444">0.3</span><span style="color:#888">)</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">background-color</span><span style="color:#888">:</span> <span style="color:#388038">rgba</span><span style="color:#888">(</span><span style="color:#444">6</span><span style="color:#888">,</span> <span style="color:#444">195</span><span style="color:#888">,</span> <span style="color:#444">116</span><span style="color:#888">,</span> <span style="color:#444">0.808</span><span style="color:#888">)</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">color</span><span style="color:#888">:</span> <span style="color:#444">#fff</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">cursor</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">pointer</span><span style="color:#888">;</span>
+		<span style="color:#888">}</span>
+
+		<span style="color:#2838b0">input</span><span style="color:#666">[</span><span style="color:#2838b0">type</span><span style="color:#666">=</span><span style="color:#b83838">&#34;location&#34;</span><span style="color:#666">]</span> <span style="color:#888">{</span>
+			<span style="color:#2838b0">padding</span><span style="color:#888">:</span> <span style="color:#444">0.3</span><span style="color:#2838b0;font-style:italic">em</span> <span style="color:#444">0.6</span><span style="color:#2838b0;font-style:italic">em</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">margin-top</span><span style="color:#888">:</span> <span style="color:#444">1</span><span style="color:#2838b0;font-style:italic">em</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">font-size</span><span style="color:#888">:</span> <span style="color:#444">1.5</span><span style="color:#2838b0;font-style:italic">em</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">border-radius</span><span style="color:#888">:</span> <span style="color:#444">0.5</span><span style="color:#2838b0;font-style:italic">em</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">border</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">none</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">outline</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">none</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">box-shadow</span><span style="color:#888">:</span> <span style="color:#444">0</span> <span style="color:#444">0.2</span><span style="color:#2838b0;font-style:italic">em</span> <span style="color:#444">0.5</span><span style="color:#2838b0;font-style:italic">em</span> <span style="color:#388038">rgba</span><span style="color:#888">(</span><span style="color:#444">0</span><span style="color:#888">,</span> <span style="color:#444">0</span><span style="color:#888">,</span> <span style="color:#444">0</span><span style="color:#888">,</span> <span style="color:#444">0.3</span><span style="color:#888">)</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">background-color</span><span style="color:#888">:</span> <span style="color:#388038">rgba</span><span style="color:#888">(</span><span style="color:#444">6</span><span style="color:#888">,</span> <span style="color:#444">195</span><span style="color:#888">,</span> <span style="color:#444">116</span><span style="color:#888">,</span> <span style="color:#444">0.808</span><span style="color:#888">)</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">color</span><span style="color:#888">:</span> <span style="color:#444">#fff</span><span style="color:#888">;</span>
+			<span style="color:#2838b0">cursor</span><span style="color:#888">:</span> <span style="color:#444;font-style:italic">pointer</span><span style="color:#888">;</span>
+			
+		<span style="color:#888">}</span></pre>
+                </div>
+            </div>
+
+            <div class="space"></div>
+            <div class="footer">
+                Powered by <a href="https://gitfront.io">GitFront</a>
+            </div>
+        </div>
+    </body>
+</html>
